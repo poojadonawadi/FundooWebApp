@@ -1,0 +1,13 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace CommonLayer.Models
+{
+    public class CollaboratorModel
+    {
+        public int CollaboratorId { get; set; }
+        public string Email { get; set; }
+        public int NotesId { get; set; }
+    }
+}
